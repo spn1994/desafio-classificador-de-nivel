@@ -30,7 +30,7 @@ function definirNivel(xp) {
 // Laço de repetição para processar herói
 for (let i = 0; i < herois.length; i++) {
   // Acesso a cada herói 
-  const heroi = herois[i];  
+  let heroi = herois[i];  
   // Chamar a função definirNivel passando heroi.xp
   console.log(`O Herói de nome ${heroi.nome} está no nível de ${definirNivel(heroi.xp)}`);
 }
